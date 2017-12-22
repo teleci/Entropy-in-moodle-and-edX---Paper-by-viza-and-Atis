@@ -1,0 +1,134 @@
+\documentclass[runningheads,a4paper]{llncs}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage{amssymb}
+\usepackage{url}
+\setcounter{tocdepth}{3}
+
+
+\usepackage{array,booktabs} %booktabs used for \addlinespace
+\newcolumntype{C}[1]{>{\centering\arraybackslash}p{#1}}
+
+\newcommand{\keywords}[1]{\par\addvspace\baselineskip
+\noindent\keywordname\enspace\ignorespaces#1}
+
+
+
+\title{Entropy paradigm based approach to introduce learning management system complexity through students activity evaluation}
+%in Moodle and edX LMS.}
+
+\titlerunning{Digital Opportunities for First Year University Students}
+%\toctitle{Lecture Notes in Computer Science}
+%\tocauthor{Authors' Instructions}
+\author{Viktors Zagorskis\and  Atis Kapenieks  }
+
+
+\institute{
+Distance Education Study Centre of \\Riga Technical University, Latvia, 
+University of Liepaja, Latvia
+\\atis.kapenieks@rtu.lv
+ \\Riga Technical University, Latvia
+\\viktors.zagorskis@rtu.lv}
+
+
+
+
+
+\begin{document}
+
+\maketitle
+
+%\institute{Riga Technical University}
+\begin{abstract}
+ The quality of education of youth, in general, is worsening.  Reasons for such a statement are (i) instant changes of educational systems in general, (ii) eventually unreasonable switching between ephemeral learning trends and tools.  Students and Teachers, despite the use of learning management systems today face a real and increasing difficulty in finding of optimal communication for both learning coalitions - to learn and to teach.  In this research, students activity in two learning management systems (LMS): MOODLE and edX are analyzed.  We study both  platforms by measuring and comparing of students activity from the learning-time aspect.
+ %that currently had to provide learning support. do not allow to study efficiently from the learning-time aspect. 
+ We have also revealed some relations between students activity and course complexity characteristics through involving of learning course entropy measures. 
+ %We also provide the novel mapping of students activity to learning contents through the entropy characteristics of both.
+ We conclude that educational institutions should move forward to  modern e--learning platforms.
+ %combine the traditional - in class forms of study and modern e--learning platforms. 
+ However, direct communication between the teacher and the student plays very important role in acquiring a quality education, and should not be left out.
+\keywords{LMS, MOODLE, OpenEDX, quality of learning contents, entropy in education}
+\end{abstract}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Introduction}
+
+%$W = \sum_{i=0}^{N} -p_i $$
+Today, at Riga Technical University (RTU) the interaction between students and instructors are provided in mixed form - in class and through e--learning. Latest is mostly used only as storage of schedulers, as an e-mail organizer, as centralized PDF (or most often - Word (trademark of MS)) document storage. 
+Since 2007 e-learning platform MOODLE had been maintained. Every academic year 2013/2014th, 2014/2015th, 2015/2016th, and year 2016/2017th in the autumn period the course "Entrepreneurship (Distance Learning e-course)”  was provided to 1st--year students.
+
+\section{Entropy}
+
+The "entropy in education" is known since 2009 "Improving the Odds: Raising the Class
+By Rodney Larson" (Chapter 5, p 168). Lemon examines all aspects of entropy as it applies to both physical and information science.
+
+\begin{verbatim}
+    @book{larson2009improving,
+  title={Improving the Odds: Raising the Class},
+  author={Larson, R.},
+  isbn={9781607090960},
+  lccn={2009031914},
+  url={https://books.google.lv/books?id=q9b-p1MFuP0C},
+  year={2009},
+  publisher={R\&L Education}
+}
+\end{verbatim}
+
+
+
+
+
+
+%\section{Descriptive results.} 
+
+
+
+
+
+
+
+
+\end{document}
+
+
+\begin{table}[]
+\centering
+\caption{Non-parametric Statistical Test Comparing Activity of Students at Weeks 7--8 and 11--12}
+\begin{tabular}{C{2cm} C{2cm} C{2cm} C{2cm}}
+\hline\addlinespace
+Weeks &  Number of Students Activities & Mean Rank & Sum of Ranks\\
+\addlinespace\hline\addlinespace
+7--8 & 158 & 156.63 & 24747.50  \\
+             \addlinespace
+             11--12 & 158 & 160.37 & 24338.50  \\
+             \addlinespace\hline\addlinespace
+Total: & 316 & &  \\
+             \addlinespace             
+            \hline
+\end{tabular}
+\label{tab:table_3}
+\end{table}
+
+
+\begin{table}[]
+\centering
+\caption{%Evaluation of activities expressed by clicking. 
+Test Statistics grouped by weeks}
+\begin{tabular}{ C{4cm} C{2cm}}
+\hline\addlinespace
+Test &  Value\\
+\addlinespace\hline\addlinespace
+Mann-Whitney -- U & 12227.000\\
+             \addlinespace
+Wilcoxon -- W & 24788.000\\
+             \addlinespace
+Z & 0.342\\
+             \addlinespace
+Asymp. Sig. (2-tailed) & 0.732\\
+             \addlinespace
+            \hline
+\end{tabular}
+\label{tab:table_4}
+\end{table}
